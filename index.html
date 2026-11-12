@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>DevCraft - BotFather Banner (640x360)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #050811;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Montserrat', sans-serif;
+      gap: 20px;
+    }
+
+    /* Aniq 640x360 o'lcham — blur o'rniga toza radial-gradient ishlatildi */
+    #bot-banner {
+      width: 640px;
+      height: 360px;
+      background: 
+        radial-gradient(circle at 12% 15%, rgba(56, 189, 248, 0.22) 0%, transparent 45%),
+        radial-gradient(circle at 88% 85%, rgba(99, 102, 241, 0.22) 0%, transparent 45%),
+        linear-gradient(145deg, #0b1120 0%, #111c35 100%);
+      border: 2.5px solid #38bdf8;
+      border-radius: 16px;
+      padding: 14px 20px;
+      color: #ffffff;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Yuqori qism */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .brand {
+      background: linear-gradient(90deg, #0284c7, #38bdf8);
+      padding: 4px 12px;
+      border-radius: 30px;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+    }
+
+    .badge {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 4px 11px;
+      border-radius: 30px;
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #fbbf24;
+    }
+
+    h1 {
+      font-size: 17.5px;
+      font-weight: 800;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      white-space: nowrap;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    /* Xizmatlar (4x2 ixcham setka) */
+    .grid-section {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .mini-card {
+      background: rgba(30, 41, 59, 0.9);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-top: 3px solid #38bdf8;
+      border-radius: 10px;
+      padding: 8px 6px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      height: 92px;
+    }
+
+    .mini-icon {
+      font-size: 20px;
+      background: rgba(56, 189, 248, 0.14);
+      width: 34px;
+      height: 34px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .mini-card h3 {
+      font-size: 11px;
+      font-weight: 700;
+      color: #f8fafc;
+      line-height: 1.2;
+    }
+
+    /* Pastki qism */
+    .bottom-section {
+      background: rgba(15, 23, 42, 0.95);
+      border: 1.5px solid #fbbf24;
+      border-radius: 10px;
+      padding: 7px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      font-weight: 700;
+    }
+
+    .price-tag {
+      color: #fef3c7;
+    }
+
+    .price-tag b {
+      color: #fbbf24;
+    }
+
+    .bot-link {
+      color: #38bdf8;
+      font-weight: 800;
+    }
+
+    /* Yuklab olish tugmasi */
+    .download-btn {
+      background: linear-gradient(90deg, #10b981, #059669);
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 640x360 BANNER -->
+  <div id="bot-banner">
+    <div class="top-section">
+      <div class="top-bar">
+        <div class="brand">&lt;DEVCRAFT SOLUTIONS /&gt;</div>
+        <div class="badge">⚡ TEZ • SIFATLI • ISHONCHLI</div>
+      </div>
+      <h1>DASTURLASH VA <span>ELEKTRON HUJJATLAR</span> XIZMATI</h1>
+    </div>
+
+    <div class="grid-section">
+      <div class="mini-card">
+        <div class="mini-icon">🌐</div>
+        <h3>Web-Sayt Yaratish</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">🤖</div>
+        <h3>Python va Botlar</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">🎓</div>
+        <h3>Kurs Ishlari</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">📚</div>
+        <h3>Mustaqil Ish va Referat</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">📄</div>
+        <h3>Word va Excel Hujjat</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">📊</div>
+        <h3>Slayd va Taqdimot</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">🥽</div>
+        <h3>360° VR va Simulyatsiya</h3>
+      </div>
+      <div class="mini-card">
+        <div class="mini-icon">💻</div>
+        <h3>Amaliy va Lab. Ishlar</h3>
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <span class="price-tag">💰 <b>HAMYONBOP NARXLAR:</b> Talabalar uchun qulay!</span>
+      <span class="bot-link">🚀 @devcraft_solutions_bot</span>
+    </div>
+  </div>
+
+  <button class="download-btn" onclick="downloadBanner()">📥 Rasmni yuklab olish (640x360 PNG)</button>
+
+  <script>
+    function downloadBanner() {
+      const banner = document.getElementById('bot-banner');
+      html2canvas(banner, {
+        scale: 2, // Yuqori aniqlikda olib, keyin aniq 640x360 ga tushiramiz
+        backgroundColor: '#050811'
+      }).then(sourceCanvas => {
+        // @BotFather uchun aniq 640x360 o'lchamga keltirish
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = 640;
+        finalCanvas.height = 360;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.drawImage(sourceCanvas, 0, 0, 640, 360);
+
+        const link = document.createElement('a');
+        link.download = 'devcraft_bot_banner_640x360.png';
+        link.href = finalCanvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+  </script>
+
+</body>
+</html>

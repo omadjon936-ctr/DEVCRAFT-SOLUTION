@@ -1,0 +1,145 @@
+{
+    "order_count": 14,
+    "orders": {
+        "1": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "Turizm Sayohati va agentligi",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "998507167174",
+            "status": "qabul_qilindi"
+        },
+        "2": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "💻 Amaliy va Lab. Ishlar",
+            "details": "Turizm sayohati va Agentligi",
+            "deadline": "🔥 Shoshilinch (Tez)",
+            "phone": "50 716 71 74",
+            "status": "qabul_qilindi"
+        },
+        "3": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "Jfjh",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "998507167174",
+            "status": "qabul_qilindi"
+        },
+        "4": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "📄 Word va Excel Hujjat",
+            "details": "Nsbdjd",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "998507167174",
+            "status": "qabul_qilindi"
+        },
+        "5": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "Vyfyv",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "998507167174",
+            "status": "qabul_qilindi"
+        },
+        "6": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "Ekhbeke",
+            "deadline": "🔥 Shoshilinch (Tez)",
+            "phone": "998507167174",
+            "status": "qabul_qilindi"
+        },
+        "7": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "dfvidkjcxv]",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "+998507167174",
+            "status": "qabul_qilindi"
+        },
+        "8": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "🎓 Kurs Ishlari",
+            "details": "Slayd kerak",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "+998507167174",
+            "status": "kutilmoqda"
+        },
+        "9": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "salom",
+            "details": null,
+            "deadline": "/start",
+            "phone": "/start",
+            "status": "kutilmoqda"
+        },
+        "10": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "salom",
+            "details": "/start",
+            "deadline": "/start",
+            "phone": "/start",
+            "status": "kutilmoqda"
+        },
+        "11": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "@Omadjon121",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "Amaluyot",
+            "deadline": "🔥 Shoshilinch (Tez)",
+            "phone": "+998507167174",
+            "status": "qabul_qilindi"
+        },
+        "12": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🤖 Python va Botlar",
+            "details": "Veb Tizimlarni Loyihalash",
+            "deadline": "⏳ 2-3 kun ichida",
+            "phone": "+998507167174",
+            "status": "qabul_qilindi"
+        },
+        "13": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🌐 Web-Sayt Yaratish",
+            "details": "drgsdffv",
+            "deadline": "🔥 Shoshilinch (Tez)",
+            "phone": "+998507167174",
+            "status": "qabul_qilindi"
+        },
+        "14": {
+            "client_id": 8958237379,
+            "name": "Omadjon.dev",
+            "username": "Mavjud emas",
+            "service": "🎓 Kurs Ishlari",
+            "details": "sfgh",
+            "deadline": "🔥 Shoshilinch (Tez)",
+            "phone": "+998507167174",
+            "status": "qabul_qilindi"
+        }
+    }
+}
